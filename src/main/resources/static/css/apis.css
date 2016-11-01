@@ -1,0 +1,39 @@
+.navigation-logo {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.navigation-logo img {
+	max-width: 130px;
+}
+
+.navbar-default .navbar-brand {
+	font-family: 'Black Ops One', cursive;
+	font-size: 30px;
+	color: #6b3c02;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #402000;
+}
+
+.navbar-default .navbar-brand .network {
+	font-family: 'Sonsie One', cursive;
+	font-size: 25px;
+}
+
+nav a:hover, nav a:active {
+	color: #402000;
+}
+
+.navbar-top-links li a {
+	padding: 14px;
+}
+
+body>div>div a {
+	text-decoration: underline;
+}
+
+body {
+	padding-top: 0px;
+}

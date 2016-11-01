@@ -1,0 +1,48 @@
+.hero-widget {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.hero-widget .icon {
+	display: block;
+	font-size: 96px;
+	line-height: 96px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.hero-widget var {
+	display: block;
+	height: 64px;
+	font-size: 30px;
+	line-height: 30px;
+	font-style: normal;
+}
+
+.hero-widget label {
+	font-size: 17px;
+}
+
+.hero-widget .options {
+	margin-top: 10px;
+}
+
+.hiveList a {
+	text-decoration: none;
+}
+
+.colorpicker-2x .colorpicker-saturation {
+	width: 200px;
+	height: 200px;
+}
+
+.colorpicker-2x .colorpicker-hue, .colorpicker-2x .colorpicker-alpha {
+	width: 30px;
+	height: 200px;
+}
+
+.colorpicker-2x .colorpicker-color, .colorpicker-2x .colorpicker-color div
+	{
+	height: 30px;
+}

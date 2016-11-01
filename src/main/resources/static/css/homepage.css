@@ -1,0 +1,138 @@
+html, body {
+	background-color: black;
+	color: yellow;
+	width: 100%;
+	height: 100%;
+}
+
+.page-content {
+	width: 100%;
+	height: 100%;
+}
+
+#homepage-content {
+	display: table;
+	width: 100%;
+	height: 100%;
+	background-image: url('/img/globe.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#homepage-content h1 {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+#signin {
+	float: right;
+}
+
+#homepage-content  h1 {
+	font-family: 'Black Ops One', cursive;
+	font-size: 7vw;
+	color: #eeb422;
+}
+
+#homepage-content h1 .headline-name-left {
+	margin-right: -15px;
+}
+
+#homepage-content h1 .headline-name-right {
+	margin-left: -15px;
+}
+
+#homepage-content  h1 .headline-info {
+	font-family: 'Sonsie One', cursive;
+	font-size: 5vw;
+}
+
+#homepage-content h1 img {
+	width: 9vw;
+	-webkit-animation-name: spinner;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-duration: 11s;
+	animation-name: spinner;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-duration: 11s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+@
+-webkit-keyframes spinner {from { -webkit-transform:rotateY(0deg);
+	
+}
+
+to {
+	-webkit-transform: rotateY(-360deg);
+}
+
+}
+@
+keyframes spinner {from { -moz-transform:rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+}
+
+to {
+	-moz-transform: rotateY(-360deg);
+	-ms-transform: rotateY(-360deg);
+	transform: rotateY(-360deg);
+}
+
+}
+.hexcontainer {
+	position: absolute;
+	top: -51px;
+	left: -49px;
+}
+
+.hex2 {
+	float: left;
+	margin-right: -26px;
+	margin-bottom: -50px;
+}
+
+.hex2 .left {
+	float: left;
+	width: 0;
+	border-right: 30px solid #eeb422;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+.hex2 .middle {
+	float: left;
+	width: 60px;
+	height: 104px;
+	background: #eeb422;
+}
+
+.hex2 .right {
+	float: left;
+	width: 0;
+	border-left: 30px solid #eeb422;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+.hex2-row {
+	clear: left;
+}
+
+.hex2.even {
+	margin-top: 53px;
+}
+
+.hex2.black .left, .hex2.black .middle, .hex2.black .right {
+	border-color: transparent;
+	background-color: transparent;
+}

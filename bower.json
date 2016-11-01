@@ -1,0 +1,14 @@
+{
+  "name": "bienenmonitor",
+  "dependencies": {
+    "bootstrap": "^3",
+    "html5shiv": "^3.7.3",
+    "respond": "^1.4.2",
+    "fontawesome": "^4.7.0",
+    "bootstrap-datepicker": "^1.6.4",
+    "metisMenu": "^2.5.2",
+    "jquery": "^3.1.1",
+    "morris.js": "morrisjs#^0.5.1",
+    "sb-admin-2": "*"
+  }
+}
