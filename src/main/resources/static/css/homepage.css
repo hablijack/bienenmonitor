@@ -16,7 +16,10 @@ html, body {
 	height: 100%;
 	background-image: url('/img/globe.png');
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: top;
+	position: fixed;
+	top: 0;
+	z-index: 10;
 }
 
 #homepage-content h1 {
@@ -28,7 +31,10 @@ html, body {
 }
 
 #signin {
-	float: right;
+	position: fixed;
+	top: 0;
+	right: 0;
+    z-index: 20;
 }
 
 #homepage-content  h1 {
